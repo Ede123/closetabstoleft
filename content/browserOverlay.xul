@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<overlay id="closetabstoleft-overlay"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/javascript" src='chrome://closetabstoleft/content/browserOverlay.js' />
+
+	<menupopup id="tabContextMenu">
+		<menuitem id="context_closeTabsToTheStart"
+		          label="Close Tabs to the Left"
+				  accesskey="L"
+		          oncommand="closetabstoleft.removeTabsToTheStartFrom(TabContextMenu.contextTab);"
+		          insertbefore="context_closeTabsToTheEnd" />
+	</menupopup>
+
+</overlay>

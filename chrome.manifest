@@ -1,0 +1,3 @@
+content closetabstoleft content/
+
+overlay chrome://browser/content/browser.xul chrome://closetabstoleft/content/browserOverlay.xul
