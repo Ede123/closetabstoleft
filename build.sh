@@ -1,2 +1,2 @@
 rm closetabstoleft.xpi
-7z a -r -i!chrome.manifest -i!install.rdf -i!content/ closetabstoleft.xpi
+7z a -mx -mtc- -r -i!install.rdf -i!chrome.manifest -i!content/ -i!locale/ closetabstoleft.xpi
