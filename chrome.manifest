@@ -1,3 +1,14 @@
-content closetabstoleft content/
+content	closetabstoleft	content/
 
-overlay chrome://browser/content/browser.xul chrome://closetabstoleft/content/browserOverlay.xul
+overlay	chrome://browser/content/browser.xul chrome://closetabstoleft/content/browserOverlay.xul
+
+locale	closetabstoleft	de-DE	locale/de-DE/
+locale	closetabstoleft	en-US	locale/en-US/
+locale	closetabstoleft	es-ES	locale/es-ES/
+locale	closetabstoleft	fr-FR	locale/fr-FR/
+locale	closetabstoleft	it-IT	locale/it-IT/
+locale	closetabstoleft	ja-JA	locale/ja-JA/
+locale	closetabstoleft	nl-NL	locale/nl-NL/
+locale	closetabstoleft	pl-PL	locale/pl-PL/
+locale	closetabstoleft	pt-BR	locale/pt-BR/
+locale	closetabstoleft	ru-RU	locale/ru-RU/

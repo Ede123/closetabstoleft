@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 
+<!DOCTYPE window SYSTEM "chrome://closetabstoleft/locale/browser.dtd">
+
 <overlay id="closetabstoleft-overlay"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
@@ -8,8 +10,8 @@
 
 	<menupopup id="tabContextMenu">
 		<menuitem id="context_closeTabsToTheStart"
-		          label="Close Tabs to the Left"
-				  accesskey="L"
+		          label="&closeTabsToTheStart.label;"
+				  accesskey="&closeTabsToTheStart.accesskey;"
 		          oncommand="closetabstoleft.removeTabsToTheStartFrom(TabContextMenu.contextTab);"
 		          insertbefore="context_closeTabsToTheEnd" />
 	</menupopup>
